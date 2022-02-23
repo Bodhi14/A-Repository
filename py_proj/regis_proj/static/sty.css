@@ -1,0 +1,210 @@
+
+
+
+body{
+	color: white !important;
+	background: url('https://images.unsplash.com/photo-1570284613060-766c33850e00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+
+}
+.card{
+	width: 20rem;
+	height: 15rem;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 10px;
+}
+.grp{
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+.card2{
+	padding: 10px;
+}
+.text3, .text4{
+	font-size: 30px;
+}
+.btn1{
+	position: absolute;
+	bottom: 20px;
+	right: 2.5%;
+}
+.btn2{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.tabs {
+    width:80%;
+    margin-left: 17%;
+    margin-top: 2%;
+    
+
+   }
+
+   
+ 
+  .tab-links:hover {
+    display:block;
+    clear:both;
+    content:'';
+  }
+
+  .tab-links {
+        justify-content: center;
+    margin: 10px 0 0 0;
+    position: relative;
+    top: 2px;
+
+  }
+
+  .tab-links li {
+    
+    float:left;
+    padding-top: 10px;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .tab-links a {
+    
+    
+    justify-content: space-between;
+    
+    border: 2px solid;
+    border-bottom: 3px solid;
+    font-weight:600;
+    
+    transition:all linear 0.15s;
+  }
+
+  .tab-links a:hover {
+    
+    text-decoration:none;
+    border: 2px solid;
+    border-bottom: 3px solid;  
+    
+  }
+
+  
+
+  .tab-content, .uploaded-documents-container {
+    padding:15px;
+    
+    
+    font-size: .95em;
+  }
+
+  .tab-content-scroll {
+    max-height: 375px;
+    min-height: 375px;
+    max-width: 1100px;
+    min-width: 450px;
+    overflow: auto;
+    clear:both;
+  }
+
+  .tab-content-scroll-home {
+    min-height: 135px;
+  }
+
+  .button-bar-scroll {
+    min-height: 235px;
+  }
+
+  .tab-content-scroll>p {
+    margin-top: 0;
+    padding-right: 12px;
+  }
+
+  .tab-content a {
+    margin-left: 300px;
+    margin-top: 400px;
+    
+  }
+
+  .tab {
+    display:none;
+    justify-content: center;
+  }
+
+  .tab.active {
+    display:block;
+    align-items: center;
+    justify-content: center;
+  }
+  .nextButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    
+  }
+  .prevButton{
+    position: absolute;
+    top: 50%;
+    text-decoration: none;
+    right: 90%;
+  }
+ 
+  .inputtext{
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 30px;
+    position: absolute;
+    top: 35%;
+    left: 24%;
+  }
+  .ques1btn{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+
+  }
+  .ques2btn{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+  }
+  .ques3btn{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+
+
+  }
+  .ques4btn{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+
+
+  }
+  .quescontext{
+    position: absolute;
+    top: 70%;
+  }
+  .ques{
+    color: yellow;
+    position: absolute;
+    top: 27%;
+    left: 34%;
+    font-weight: bold;
+    font-size: 25px;
+
+    justify-content: center;
+    align-items: center;
+
+  }
+  .quesl{
+    color: yellow;
+    position: absolute;
+    top: 27%;
+    left: 31%;
+    font-weight: bold;
+    font-size: 25px;
+
+    justify-content: center;
+    align-items: center;
+
+  }

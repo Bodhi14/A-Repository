@@ -1,0 +1,59 @@
+
+
+body {
+  display: flex;
+  background: url('https://images.unsplash.com/photo-1570284613060-766c33850e00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80') !important;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  list-style: none !important;
+}
+
+.credentials{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px 5px 5px 5px;
+}
+.text1{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5%;
+
+}
+.btn{
+  width: 25%;
+  margin-left: 37%;
+  text-decoration: none;
+}
+.ht{
+  position: absolute;
+  top: 0.5%;
+  left: 30%;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.card{
+  margin-left: 10px;
+  margin-top: 85px;
+  width: 30rem;
+  height: 35rem;
+  
+}
+.username{
+  margin-left: 6%;
+  width: 90%;
+  border-radius: 5px 5px 5px 5px;
+}
+.cpass{
+  margin-left: 6%;
+  width: 90%;
+  border-radius: 5px 5px 5px 5px;
+}
+.text2{
+  color: white;
+}
