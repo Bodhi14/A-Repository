@@ -93,7 +93,8 @@ def signin(request):
 		if user is not None:
 			login(request, user)
 			gname = user.first_name
-			return render(request, "portal/home.html", {'gname' : gname})
+			lname = user.last_name
+			return render(request, "portal/home.html", {'gname' : gname, 'lname': lname})
 
 		else:
 			messages.error(request, "Invalid Credentials")
