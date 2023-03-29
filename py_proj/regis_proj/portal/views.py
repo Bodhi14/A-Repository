@@ -1,16 +1,41 @@
 from django.shortcuts import redirect, render
-from django.http import HttpResponse
 from django.contrib.auth.models import User
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
-from regis_proj import settings
-from django.core.mail import send_mail
+from django.http import HttpResponse, HttpResponseRedirect
+from .models import Answer
 
 
 
 
 
 def home(request):
+	
+	
+	if request.method == "POST":
+		
+		ans1 = request.POST.get('textarea1')
+		ans2 = request.POST.get('textarea2')
+		ans3 = request.POST.get('textarea3')
+		ans4 = request.POST.get('textarea4')
+
+		answer = Answer.objects.create()
+
+		answer.ans1 = ans1
+		answer.ans2 = ans2
+		answer.ans3 = ans3
+		answer.ans4 = ans4
+
+		answer.save()
+	
+		logout(request)
+		return render(request, "portal/thankyou.html")
+
+
+
+
+
+
 	
 	return render(request, "portal/home.html")
 

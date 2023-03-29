@@ -42,12 +42,13 @@
     </ul>
     
     
-
+    <form action="/" method="post">
+    {% csrf_token %}
     <div class="tab-content">
         <div id="tab1" class="tab active">
            <div class="quescontent">
            <p class="ques">What makes you interested for IEEE?</p>
-          <textarea name="textarea" rows="12" cols="70" class="inputtext">Write something here</textarea>
+          <textarea name="textarea1" rows="12" cols="100" class="inputtext">Write something here</textarea>
            </div>
           <ul class="tab-links">
          <li>
@@ -59,7 +60,7 @@
         <div id="tab2" class="tab">
         <div class="quescontent">
            <p class="ques">&nbsp &nbsp &nbsp &nbsp What are your strengths?</p>
-           <textarea name="textarea" rows="12" cols="70" class="inputtext">Write something here</textarea>
+           <textarea name="textarea2" rows="12" cols="100" class="inputtext">Write something here</textarea>
         <ul class="tab-links">
         <li>
           <a href="#back_tab1" class="btn btn-light prevButton">Prev</a>
@@ -72,7 +73,7 @@
 
         <div class="quescontent">
            <p class="ques">&nbsp &nbsp &nbsp &nbsp What are your weaknesses?</p>
-           <textarea name="textarea" rows="12" cols="70" class="inputtext">Write something here</textarea>
+           <textarea name="textarea3" rows="12" cols="100" class="inputtext">Write something here</textarea>
         </div>
         <ul class="tab-links">
         	<li>
@@ -85,7 +86,7 @@
         <div id="tab4" class="tab">
         	<div class="quescontent">
            <p class="quesl">What makes you different from other people?</p>
-           <textarea name="textarea" rows="12" cols="70" class="inputtext">Write something here</textarea>
+           <textarea name="textarea4" rows="12" cols="100" class="inputtext">Write something here</textarea>
            </div>
         	<ul class="tab-links">
         	<li>
@@ -94,7 +95,9 @@
   </ul>
         </div>
     </div>
-</div>
+    </div>
+    <button class="btn btn-light btn1" style="text-decoration: none; color: black;" onclick="func()" type="submit">SUBMIT</button>
+    </form>
 
 
     
